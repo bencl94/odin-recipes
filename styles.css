@@ -1,0 +1,39 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 1rem 0 1rem 0;
+}
+
+.recipeLink {
+    list-style-type: none;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.recipeLink a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    display: inline-block;
+    width: 50%;
+}
